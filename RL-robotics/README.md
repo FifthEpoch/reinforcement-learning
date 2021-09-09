@@ -29,7 +29,6 @@ Our agent is a small computer (Raspberry Pi 3 Model B) driving a microcontroller
 ## Environment
 
 <img src="https://github.com/FifthEpoch/reinforcement-learning/blob/main/RL-robotics/img/arena.jpeg" width="400" height="auto">
-![Arena for experiment](https://github.com/FifthEpoch/reinforcement-learning/blob/main/RL-robotics/img/arena.jpeg)
 
 An hexagonal, walled enclosure was built to contain the robotic agent to an area, the walls ensure that the switches at the front of the robot is triggered whenever there is a collision. The enclosure is about 8 feet wide corner to corner. A heat lamp radiates light and heat towards the center of the enclosure.
 
