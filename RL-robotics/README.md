@@ -14,8 +14,8 @@ The robotic agent also should learn to avoid head-on collision when regulating t
 
 ## Hardware Setup
 
-![Robotic agent top view](/img/robot-top.heic)
-![Robotic agent side view](/img/robot-side.heic) 
+![Robotic agent top view](/img/robot-top.jpeg)
+![Robotic agent side view](/img/robot-side.jpeg) 
 
 Our agent is a small computer (Raspberry Pi 3 Model B) driving a microcontroller (Arduino Uno). The microcontroller is connected to an array of sensors, as well as a pair of DC motors which provide mobility to the agent. The onboard computer is responsible for computation of action-values, storing learning, and instructing the microcontroller to take an action on each time step. The microcontroller is responsible in collecting sensory data and executing actions instructed by the computer (i.e. turning in a certain direction, driving motors to move forward or backward).
 
@@ -29,7 +29,7 @@ Our agent is a small computer (Raspberry Pi 3 Model B) driving a microcontroller
 
 ## Environment
 
-![Arena for experiment](/img/arena.heic)
+![Arena for experiment](/img/arena.jpeg)
 
 An hexagonal, walled enclosure was built to contain the robotic agent to an area, the walls ensure that the switches at the front of the robot is triggered whenever there is a collision. The enclosure is about 8 feet wide corner to corner. A heat lamp radiates light and heat towards the center of the enclosure.
 
