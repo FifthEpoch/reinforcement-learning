@@ -14,7 +14,7 @@ The robotic agent also should learn to avoid head-on collision when regulating t
 
 ## Hardware Setup
 
-<img src="https://github.com/FifthEpoch/reinforcement-learning/blob/main/RL-robotics/img/robot-top.jpeg" width="400" height="auto"> <img src="https://github.com/FifthEpoch/reinforcement-learning/blob/main/RL-robotics/img/robot-side.jpeg" width="400" height="auto">
+<img src="https://github.com/FifthEpoch/reinforcement-learning/blob/main/RL-robotics/img/robot-top.jpeg" width="auto" height="250"> <img src="https://github.com/FifthEpoch/reinforcement-learning/blob/main/RL-robotics/img/robot-side.jpeg" width="auto" height="250">
 
 Our agent is a small computer (Raspberry Pi 3 Model B) driving a microcontroller (Arduino Uno). The microcontroller is connected to an array of sensors, as well as a pair of DC motors which provide mobility to the agent. The onboard computer is responsible for computation of action-values, storing learning, and instructing the microcontroller to take an action on each time step. The microcontroller is responsible in collecting sensory data and executing actions instructed by the computer (i.e. turning in a certain direction, driving motors to move forward or backward).
 
